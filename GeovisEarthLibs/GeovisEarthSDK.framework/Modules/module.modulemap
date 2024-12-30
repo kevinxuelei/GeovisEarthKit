@@ -1,0 +1,11 @@
+framework module GeovisEarthSDK {
+  umbrella header "GeovisEarthSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module GeovisEarthSDK.Swift {
+  header "GeovisEarthSDK-Swift.h"
+  requires objc
+}
