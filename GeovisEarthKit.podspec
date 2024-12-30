@@ -36,6 +36,9 @@ TODO: Add long description of the pod here.
   
   s.dependency 'MapboxMaps', '11.7.1'
   
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  
+  
   # s.resource_bundles = {
   #   'GeovisEarthKit' => ['GeovisEarthKit/Assets/*.png']
   # }
